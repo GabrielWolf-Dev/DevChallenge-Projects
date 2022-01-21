@@ -1,0 +1,16 @@
+.btn-theme {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    font-size: 2.25rem;
+    color: white;
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    transform: translate(-3%, -3%);
+}
+
+.btn-theme__icon {
+    height: 100%;
+    line-height: 62px;
+}

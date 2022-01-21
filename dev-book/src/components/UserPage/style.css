@@ -1,0 +1,55 @@
+.user-page {
+    width: 100%;
+    max-width: 1000px;
+    margin: 48px auto;
+}
+
+.user-page__useinf, .user-page__userepos {
+    margin-top: 8px;
+    border-radius: 12px;
+    padding: 16px 1%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.user-page__useinf__img { 
+    width: 100%;
+    max-width: 450px;
+}
+
+.user-page__userepos {
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.user-page__userepos__img {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media (max-width: 968px) {
+    .user-page { max-width: 600px; }
+
+    .user-page__useinf {
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 568px) {
+    .user-page { max-width: 400px; }
+
+    .user-page__useinf__img{ max-width: 350px; }
+
+    .user-page__userepos__img { max-width: 300px; }
+}
+
+@media (max-width: 368px) {
+    .user-page { max-width: 250px; }
+
+    .user-page__useinf__img{ max-width: 200px; }
+
+    .user-page__userepos__img { max-width: 150px; }
+}

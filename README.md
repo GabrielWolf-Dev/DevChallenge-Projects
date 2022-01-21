@@ -1,2 +1,2 @@
-# DevChallenge-Projects
-Repositório destinado para fazer os challenges da plataforma DevChallenge
+# DevChallenge_Projects
+ Projetos realizados na plataforma [DevChallenge](https://devchallenge.com.br/)

@@ -1,0 +1,36 @@
+.header { padding: 0 2%; }
+
+.header__box-search {
+    width: 100%;
+    max-width: 360px;
+    height: 42px;
+    position: relative;
+}
+
+.header__search-user {
+    width: 100%;
+    height: inherit;
+    border-radius: 60px;
+    padding-left: 16px;
+}
+
+.header__btn-search {
+    width: 42px;
+    height: inherit;
+    position: absolute;
+    top: 50%;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    transform: translateY(-50%);
+    right: 0;
+    cursor: pointer;
+}
+
+/*-- Mobile --*/
+@media (max-width: 578px) {
+    .header__box-search { max-width: 240px; }
+}
+
+@media (max-width: 378px) {
+    .header__box-search { max-width: 180px; }
+}

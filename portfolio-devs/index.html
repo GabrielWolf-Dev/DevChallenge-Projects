@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/libs/fontAwesome/all.min.css">
+    <link rel="stylesheet" href="./css/libs/fontAwesome/fontawesome.min.css">
+    <title>Portfolio Devs</title>
+</head>
+<body>
+    <nav class="nav--mobile">
+        <button class="btn-close-menu"><i class="fas fa-times"></i></button>
+
+        <ul class="nav--mobile__list">
+            <li class="nav__links"><a class="nav__link" href="#Stacks">Stacks</a></li>
+            <li class="nav__links"><a class="nav__link" href="#Projects">Projects</a></li>
+            <li class="nav__links"><a class="nav__link" href="#About">About me</a></li>
+            <li class="nav__links"><a class="nav__link" href="credits.html">Credits</a></li>
+            <li class="nav__links"><button class="header__btn-contact--mobile btn">Contact</button></li>
+        </ul><!--nav--mobile__list-->
+    </nav><!--nav--mobile-->
+
+    <div class="grid">
+        <header class="header">
+            <img class="header__logo" src="./assets/logo.png" alt="Logo do .Folio">
+
+            <nav class="header__nav--desktop">
+                <ul>
+                    <li class="nav__links"><a class="nav__link" href="#Stacks">Stacks</a></li>
+                    <li class="nav__links"><a class="nav__link" href="#Projects">Projects</a></li>
+                    <li class="nav__links"><a class="nav__link" href="#About">About me</a></li>
+                    <li class="nav__links"><a class="nav__link" href="credits.html">Credits</a></li>
+                </ul>
+            </nav><!--header__nav-->
+
+            <button class="header__btn-contact--desktop btn">Contact</button>
+
+            <button class="header__btn-mobile"><i class="fas fa-bars"></i></button>
+        </header><!--header-->
+
+        <section class="banner">
+            <div class="balls banner__balls-pos-1"></div>
+            <div class="balls banner__balls-pos-2"></div>
+            <main class="banner__desc">
+                <h2 class="desc__dev">Desenvolvedora Front-End</h2>
+                <h1 class="desc__name">Rebeca Sparks</h1>
+                <p class="desc__content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem libero aut hic perspiciatis sequi maxime sunt repudiandae veniam nostrum ut exercitationem architecto
+                </p>
+                <button class="desc__btn btn">My CV</button>
+            </main><!--banner__desc-->
+            <div class="banner__img">
+                <img class="img__img-tech" src="./assets/image-top.png" alt="Tecnologias Front-End">
+            </div><!--banner__img-->
+            <aside class="banner__social">
+                <a class="social__links" href="#"><img src="./assets/icons/linkedin.png" alt="Linkedin"></a>
+                <a class="social__links" href="#"><img src="./assets/icons/instagram.png" alt="Instagram"></a>
+                <a class="social__links" href="#"><img src="./assets/icons/twitter.png" alt="Twitter"></a>
+            </aside><!--banner__social-->
+        </section><!--banner-->
+        
+        <section class="stacks" id="Stacks">
+            <div class="balls balls-position"></div>
+            <h2 class="title">Stacks</h2>
+            <img class="stacks__img stacks__img-left" src="./assets/vector.png" alt="Vetor">
+            <img class="stacks__img stacks__img-right" src="./assets/vector.png" alt="Vetor">
+            <div class="stacks__grid">
+                <aside class="stacks__cards">
+                    <img src="./assets/html.png" alt="HTML5">
+                    <div class="cards__box-hab">
+                        <p class="cards__desc">
+                            <i class="fas fa-trophy cards__icon"></i>
+                            1 year
+                        </p><!--cards__desc-->
+                        <p class="cards__desc">
+                            <i class="fas fa-clipboard cards__icon"></i>
+                            10 projetos
+                        </p><!--cards__desc-->
+                    </div><!--cards__box-hab-->
+                </aside><!--stacks__cards-->
+                <aside class="stacks__cards">
+                    <img src="./assets/JS.png" alt="JavaScript">
+                    <div class="cards__box-hab">
+                        <p class="cards__desc">
+                            <i class="fas fa-trophy cards__icon"></i>
+                            2 year
+                        </p><!--cards__desc-->
+                        <p class="cards__desc">
+                            <i class="fas fa-clipboard cards__icon"></i>
+                            20 projetos
+                        </p><!--cards__desc-->
+                    </div><!--cards__box-hab-->
+                </aside><!--stacks__cards-->
+                <aside class="stacks__cards">
+                    <img src="./assets/css.png" alt="CSS3">
+                    <div class="cards__box-hab">
+                        <p class="cards__desc">
+                            <i class="fas fa-trophy cards__icon"></i>
+                            1 year
+                        </p><!--cards__desc-->
+                        <p class="cards__desc">
+                            <i class="fas fa-clipboard cards__icon"></i>
+                            10 projetos
+                        </p><!--cards__desc-->
+                    </div><!--cards__box-hab-->
+                </aside><!--stacks__cards-->
+            </div><!--stacks__grid-->
+        </section><!--stacks-->
+
+        <section class="projects" id="Projects">
+            <div class="balls balls-position"></div>
+            <h2 class="title">Projetos</h2>
+
+            <main class="projects__grid">
+                <aside class="projects__cards">
+                    <div class="projects__cards__borders">
+                        <span class="cards__border yellow"></span>
+                        <span class="cards__border red"></span>
+                        <span class="cards__border green"></span>
+                    </div><!--cards__menu-mac-->
+
+                    <img class="projects__print-pj" src="./assets/projects/web_shop.png" alt="Print do Projeto">
+
+                    <h3 class="projects__title">Shop Website</h3>
+                    <p class="projects__desc">
+                        Site de loja de roupas
+                    </p><!--projects__desc-->
+
+                    <footer class="projects__footer"><i class="fab fa-github"></i></footer><!--projects__footer-->
+                </aside><!--projects__cards-->
+
+                <aside class="projects__cards">
+                    <div class="projects__cards__borders">
+                        <span class="cards__border yellow"></span>
+                        <span class="cards__border red"></span>
+                        <span class="cards__border green"></span>
+                    </div><!--cards__menu-mac-->
+
+                    <img class="projects__print-pj" src="./assets/projects/web_pomodoro.png" alt="Print do Projeto">
+
+                    <h3 class="projects__title">Shop Website</h3>
+                    <p class="projects__desc">
+                        Site de loja de roupas
+                    </p><!--projects__desc-->
+
+                    <footer class="projects__footer"><i class="fab fa-github"></i></footer><!--projects__footer-->
+                </aside><!--projects__cards-->
+
+                <aside class="projects__cards">
+                    <div class="projects__cards__borders">
+                        <span class="cards__border yellow"></span>
+                        <span class="cards__border red"></span>
+                        <span class="cards__border green"></span>
+                    </div><!--cards__menu-mac-->
+
+                    <img class="projects__print-pj" src="./assets/projects/music_lib.png" alt="Print do Projeto">
+
+                    <h3 class="projects__title">Shop Website</h3>
+                    <p class="projects__desc">
+                        Site de loja de roupas
+                    </p><!--projects__desc-->
+
+                    <footer class="projects__footer"><i class="fab fa-github"></i></footer><!--projects__footer-->
+                </aside><!--projects__cards-->
+
+                <aside class="projects__cards">
+                    <div class="projects__cards__borders">
+                        <span class="cards__border yellow"></span>
+                        <span class="cards__border red"></span>
+                        <span class="cards__border green"></span>
+                    </div><!--cards__menu-mac-->
+
+                    <img class="projects__print-pj" src="./assets/projects/music_lib.png" alt="Print do Projeto">
+
+                    <h3 class="projects__title">Shop Website</h3>
+                    <p class="projects__desc">
+                        Site de loja de roupas
+                    </p><!--projects__desc-->
+
+                    <footer class="projects__footer"><i class="fab fa-github"></i></footer><!--projects__footer-->
+                </aside><!--projects__cards-->
+
+                <aside class="projects__cards">
+                    <div class="projects__cards__borders">
+                        <span class="cards__border yellow"></span>
+                        <span class="cards__border red"></span>
+                        <span class="cards__border green"></span>
+                    </div><!--cards__menu-mac-->
+
+                    <img class="projects__print-pj" src="./assets/projects/music_lib.png" alt="Print do Projeto">
+
+                    <h3 class="projects__title">Shop Website</h3>
+                    <p class="projects__desc">
+                        Site de loja de roupas
+                    </p><!--projects__desc-->
+
+                    <footer class="projects__footer"><i class="fab fa-github"></i></footer><!--projects__footer-->
+                </aside><!--projects__cards-->
+
+                <aside class="projects__cards">
+                    <div class="projects__cards__borders">
+                        <span class="cards__border yellow"></span>
+                        <span class="cards__border red"></span>
+                        <span class="cards__border green"></span>
+                    </div><!--cards__menu-mac-->
+
+                    <img class="projects__print-pj" src="./assets/projects/music_lib.png" alt="Print do Projeto">
+
+                    <h3 class="projects__title">Shop Website</h3>
+                    <p class="projects__desc">
+                        Site de loja de roupas
+                    </p><!--projects__desc-->
+
+                    <footer class="projects__footer"><i class="fab fa-github"></i></footer><!--projects__footer-->
+                </aside><!--projects__cards-->
+            </main><!--projects__grid-->
+        </section><!--projects-->
+
+        <section class="about" id="About">
+            <div class="balls balls-position"></div>
+            <h2 class="title">About me</h2>
+
+            <div class="about__card-dev">
+                <main class="card-dev__content">
+                    <h3 class="card-dev__title">Rebeca Sparks</h3>
+                    <p class="card-dev__desc">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa nostrum nam culpa dolores! Nobis corporis ad nemo delectus est consequuntur possimus rem ab.
+                    </p><!--card-dev__desc-->
+                    <ul class="card-dev__habs">
+                        <li class="card-dev__hab">Front-End</li>
+                        <li class="card-dev__hab">UI/UX Design</li>
+                        <li class="card-dev__hab">Mobile</li>
+                    </ul><!--card-dev__habs-->
+                </main>
+                 <aside class="card-dev__icons-habs">
+                     <img class="icons-habs__img" src="./assets/html.png" alt="HTML5">
+                     <img class="icons-habs__img" src="./assets/css.png" alt="CSS3">
+                     <img class="icons-habs__img" src="./assets/JS.png" alt="JavaScript">
+                 </aside><!--card-dev__icons-habs-->
+            </div><!--about__card-dev-->
+        </section><!--about-->
+
+        <footer class="footer">
+            <img class="footer__logo" src="./assets/logo.png" alt="Logo">
+
+            <p class="footer__credits">Desenvolvido com &#x1F49C por Rebeca</p>
+
+            <ul class="footer__list-social">
+                <li class="footer__links">
+                    <a href="#"><img class="footer__icon" src="./assets/icons/instagram.png" alt="Instagram"></a>
+                </li>
+                <li class="footer__links">
+                    <a href="#"><img class="footer__icon" src="./assets/icons/linkedin.png" alt="Linkedin"></a>
+                </li>
+                <li class="footer__links">
+                    <a href="#"><img class="footer__icon" src="./assets/icons/twitter.png" alt="Twitter"></a>
+                </li>
+            </ul>
+        </footer><!--footer-->
+    </div><!--grid-->
+
+    <script src="./js/index.js"></script>
+</body>
+</html>

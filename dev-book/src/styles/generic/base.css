@@ -1,0 +1,25 @@
+* { box-sizing: border-box; }
+
+body, html {
+    height: 100%;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+}
+
+a { text-decoration: none; }
+
+button, input[type='submit'] {
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+}
+
+section, header, main, div { transition: all ease-out .3s; }
+
+@media (max-width: 768px) {
+    html { font-size: 14px; }
+}
+
+@media (max-width: 368px) {
+    html { font-size: 12px; }
+}

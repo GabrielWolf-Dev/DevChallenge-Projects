@@ -1,0 +1,23 @@
+.banner {
+    margin: 48px 0;
+    padding: 0 2%;
+}
+
+.banner__title {
+    font-weight: 500;
+    line-height: 42px;
+}
+
+.banner__img {
+    width: 100%;
+    max-width: 358px;
+    height: 358px;
+}
+
+/*-- Mobile --*/
+@media (max-width: 378px) {
+    .banner__img { 
+        max-width: 240px;
+        height: 240px;
+    }
+}
